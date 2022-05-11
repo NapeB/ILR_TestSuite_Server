@@ -55,8 +55,10 @@ public class Base {
         _driver.findElement(By.name("btnLogin")).click();
         //test.fail("wrong Login Detail
         Thread.sleep(2000);
+
         Assert.assertEquals("SANLAM RM - Safrican Retail - Safrican Rainbow Life - ARL",_driver.findElement(By.xpath("//*[@id=\"AppTitle\"]/table/tbody/tr/td[3]/center/table/tbody/tr/td")).getText());
-//_driver.close();
+        Thread.sleep(2000);
+_driver.close();
 
 
     }
