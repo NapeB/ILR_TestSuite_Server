@@ -57,8 +57,8 @@ public class Base {
         Thread.sleep(2000);
 
         Assert.assertEquals("SANLAM RM - Safrican Retail - Safrican Rainbow Life - ARL",_driver.findElement(By.xpath("//*[@id=\"AppTitle\"]/table/tbody/tr/td[3]/center/table/tbody/tr/td")).getText());
-        Thread.sleep(2000);
-_driver.close();
+  
+//_driver.close();
 
 
     }
