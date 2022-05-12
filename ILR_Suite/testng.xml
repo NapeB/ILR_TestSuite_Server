@@ -9,7 +9,7 @@
 
     <test name="LoginTest">
         <classes>
-            <class name="PolicyServicing.Base">
+            <class name="PolicyServicing.BaseNew">
                 <methods>
                     <include name="Browser"/>
                 </methods>
