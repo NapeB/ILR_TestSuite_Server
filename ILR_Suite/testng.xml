@@ -10,9 +10,7 @@
     <test name="LoginTest">
         <classes>
             <class name="BaseNew">
-                <methods>
-                    <include name="Browser"/>
-                </methods>
+
             </class>
         </classes>
 
